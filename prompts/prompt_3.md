@@ -1,0 +1,1 @@
+Im dritten Schritt möchte ich Code generieren, der die Daten visualisiert. Speziell möchte ich ein Diagramm, dass mir die Qualität nach Schichthöhe & Feuchtigkeit zeigt.
