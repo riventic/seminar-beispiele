@@ -1,4 +1,4 @@
-# 🎓 BVL-Seminar: KI-Modelle Schritt für Schritt mit LLM-Unterstützung entwickeln
+# 🎓 KI-Modelle Schritt für Schritt mit LLM-Unterstützung entwickeln
 
 Dieses Repository ist die **Referenz für die Seminarteilnehmer**. Es zeigt an zwei durchgängigen Beispielen, wie man ein Machine-Learning-Projekt **mit Hilfe eines KI-Assistenten (z. B. Gemini in Google Colab oder ChatGPT)** von der Rohdatei bis zur fertigen Web-App entwickelt – ohne dass man jede Code-Zeile selbst schreiben muss.
 
@@ -46,8 +46,8 @@ seminar-beispiele/
 ├── LICENSE                           ← MIT-Lizenz
 │
 ├── demand_forecasting/               ← BEISPIEL 1: Transportzeit-Prognose (mit Lösung)
-│   ├── BVL_Seminar_Beispiellösung.ipynb   ← Fertige Schritt-für-Schritt-Lösung (Referenz)
-│   ├── BVL_Seminar_data.ipynb             ← Notebook, das die synthetischen Daten erzeugt
+│   ├── Beispiellösung.ipynb   ← Fertige Schritt-für-Schritt-Lösung (Referenz)
+│   ├── data.ipynb             ← Notebook, das die synthetischen Daten erzeugt
 │   ├── delivery_data.csv                  ← Trainingsdaten (15.000 Zeilen, Trennzeichen ";")
 │   ├── delivery_data_eval.csv             ← Mini-Datei zum Testen der Gradio-App (Upload)
 │   ├── prompts/                           ← Die Prompts des Seminars (prompt_0 … prompt_7)
@@ -99,7 +99,7 @@ Ein `RandomForestRegressor` in einer Scikit-learn-Pipeline (mit `ColumnTransform
 * **R² ≈ 0.98** – das Modell erklärt rund 98 % der Streuung der Transportzeiten.
 * **RMSE ≈ 3.82 Tage** – durchschnittlicher Vorhersagefehler.
 
-> Die Trainingsdaten wurden synthetisch erzeugt (siehe `BVL_Seminar_data.ipynb`):
+> Die Trainingsdaten wurden synthetisch erzeugt (siehe `data.ipynb`):
 > echte Städte mit Geokoordinaten, realistische Distanzen über die Haversine-Formel,
 > distanz- und routenabhängige Transportarten sowie Zollabfertigungszeiten für
 > internationale Routen.
@@ -207,7 +207,7 @@ Empfohlener Weg für das Seminar – hier ist fast alles vorinstalliert.
    ```
 5. **Bei Fehlern:** `prompt_error.md` nutzen und die Fehlermeldung einfügen.
 
-> 💡 Das fertige Notebook `BVL_Seminar_Beispiellösung.ipynb` können Sie auch direkt in
+> 💡 Das fertige Notebook `Beispiellösung.ipynb` können Sie auch direkt in
 > Colab öffnen (`Datei → Notebook hochladen`) und Zelle für Zelle ausführen.
 
 ---
@@ -235,7 +235,7 @@ Notebook starten:
 
 ```bash
 jupyter notebook
-# dann z. B. demand_forecasting/BVL_Seminar_Beispiellösung.ipynb öffnen
+# dann z. B. demand_forecasting/Beispiellösung.ipynb öffnen
 ```
 
 > ⚠️ **Pfade:** Die Notebooks laden die CSV per Dateiname (z. B.
